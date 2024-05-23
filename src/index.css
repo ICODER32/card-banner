@@ -1,0 +1,114 @@
+:root {
+  background-color: #242424;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 32%;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gameLogo {
+  position: relative !important;
+  z-index: 10;
+}
+
+.gameLogo img {
+  border-radius: 10px;
+}
+
+.android img {
+  position: absolute;
+  top: 27px;
+  z-index: 10;
+  left: 92px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+p {
+  margin: 0;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(89, 55, 240);
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
